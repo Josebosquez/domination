@@ -50,3 +50,15 @@ function addingToUl (element){
     const arg = document.querySelector('#arguments');
     arg.appendChild(element)
 }
+
+// part 2 -- 3 & 4----------------------------------------
+
+function fotos (elementId, size){
+    const photos = document.querySelector('#' + elementId);
+    photos.style.height = size;
+}
+
+const imgSize = "30px";
+fotos("image-1", imgSize)
+
+// part 2 -- 5 & 6----------------------------------------
