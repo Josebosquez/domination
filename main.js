@@ -1,10 +1,11 @@
+// part 1 -- 1 & 2 -----------------------------------------
 function strike () {
     const first = document.querySelector('ul li');
     first.style.textDecoration = "line-through"
 }
 strike();
 
-
+// part 1 -- 3-6 -----------------------------------------
 
 function imageChange (strId, url){
     const image = document.querySelector('#' + strId);
@@ -25,7 +26,10 @@ function remove(){
 remove()
 remove()
 
-function sizeChange (strId, font){
-    const string = document.querySelector("")
-}
+// part 1 -- 7 & 8----------------------------------------
 
+function sizeChange (strId, font){
+    const string = document.querySelector("#" + strId);
+    string.style.fontSize = font;
+}
+sizeChange("thing-1", "150px")
