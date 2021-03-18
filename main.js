@@ -17,3 +17,15 @@ imageChange("image-1", "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEA
 imageChange("image-2", "https://i.ytimg.com/vi/HUOYlNzCmeo/maxresdefault.jpg")
 
 imageChange("image-3", "https://static.wikia.nocookie.net/5d296fb9-3160-4310-92ce-8387fcb61252")
+
+function remove(){
+    const disappear = document.querySelector("#arguments");
+    disappear.removeChild(disappear.lastElementChild);
+}
+remove()
+remove()
+
+function sizeChange (strId, font){
+    const string = document.querySelector("")
+}
+
