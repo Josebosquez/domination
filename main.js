@@ -61,4 +61,15 @@ function fotos (elementId, size){
 const imgSize = "30px";
 fotos("image-1", imgSize)
 
-// part 2 -- 5 & 6----------------------------------------
+
+
+// part 3 -- 1 & 2----------------------------------------
+function takeText (str){
+    const stringy = document.createElement("li");
+    stringy.innerText = ("empty string");
+    addingToUl(stringy)
+}
+
+takeText ("stringy")
+
+
