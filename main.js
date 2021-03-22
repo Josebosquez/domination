@@ -32,7 +32,7 @@ function sizeChange (strId, font){
     const string = document.querySelector("#" + strId);
     string.style.fontSize = font;
 }
-sizeChange("thing-1", "150px")
+sizeChange("thing-1", "200px")
 
 
 
@@ -61,6 +61,15 @@ function fotos (elementId, size){
 const imgSize = "30px";
 fotos("image-1", imgSize)
 
+// part 2 -- 5 & 6----------------------------------------
+
+function invis (strId, word){
+    const invisible = document.querySelector("." + strId);
+    invisible.style = invisible;
+}
+
+
+invis("thing-2", "word")
 
 
 // part 3 -- 1 & 2----------------------------------------
@@ -72,4 +81,10 @@ function takeText (str){
 
 takeText ("stringy")
 
-
+// part 3 -- 3 & 4----------------------------------------
+function newHeader (str, str1){
+    const header1 = document.createElement(`${str}`);
+    header1.innerText = `${str1}`;
+    addingToUl(header1)
+}
+newHeader("h2", "This is the new header")
